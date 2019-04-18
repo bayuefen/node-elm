@@ -160,7 +160,7 @@ class Admin extends AddressComponent {
 		const md5 = crypto.createHash('md5');
 		return md5.update(password).digest('base64');
 	}
-	async singout(req, res, next){
+	async signout(req, res, next){
 		try{
 			delete req.session.admin_id;
 			res.send({

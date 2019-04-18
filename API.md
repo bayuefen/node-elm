@@ -2142,7 +2142,7 @@ POST
 
 #### 请求URL：
 ```
-https://elm.cangdu.org/admin/singout
+https://elm.cangdu.org/admin/signout
 ```
 
 #### 示例：
